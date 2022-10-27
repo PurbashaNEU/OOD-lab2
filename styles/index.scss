@@ -1,0 +1,148 @@
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+h2 {
+  //height: 50px;
+
+  @extend .display-flex;
+  .logo{
+    height: 2rem;
+    width: 20px;
+  }
+
+  .todoItem-btn {
+    background-color: $bgcolor;
+    border: none;
+    color: $textcolor;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: $font;
+    border-radius: 16px;
+    float: right;
+  }
+
+}
+
+.main-container {
+  @extend .display-flex;
+
+  .todo-list {
+    width: 50%;
+    cursor: pointer;
+    padding: 20px;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        @extend .display-flex;
+        align-items: center;
+        height: 35px;
+        padding: 10px;
+        margin-bottom: 0.3rem;
+        border: 1px solid rgba(48, 48, 207, 0.877);
+      }
+    }
+  }
+
+  .form-container {
+    width: 50%;
+    padding: 36px;
+
+    .details-container {
+      display: none;
+
+      .details-div {
+        display: flex;
+        padding: 10px;
+        border: 1px solid rgb(171, 171, 63);
+        margin-bottom: 0.4rem;
+
+         .form-label {
+          font-weight: 800;
+          width: 90px;
+          text-align: left;
+         }
+      }
+
+      .close_button {
+        text-align: center;
+
+        button {
+          background-color: rgb(171, 171, 63);
+          border-radius: 10px;
+          padding: 0.5rem;
+          border-color: rgb(171, 171, 63);
+        }
+      }
+
+
+    }
+
+    .form-class {
+      display: none;
+      
+      .form-div {
+        display: flex;
+        padding: 10px;
+        margin-bottom: 0.3rem;
+
+        .form-label {
+          width: 100px;
+          font-weight: 800;
+        }
+
+        .form-input {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+
+}
+.btn-div{
+  padding-top: 10px;
+  text-align: center;
+}
+.btn-success {
+
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  height: 2rem;
+  width: 4rem;
+}
+
+.btn-danger {
+  background-color: rgb(128, 128, 128, 0.53);
+  color: black;
+  font-weight: 100;
+  border-radius: 20px;
+  border: none;
+  height: 2rem;
+  width: 4rem;
+
+}
+
+
+.li{
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: rgb(255 0 0 / 86%);
+  font-weight: 1000;
+  font-size: 20px;
+}

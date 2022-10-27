@@ -1,0 +1,35 @@
+[
+    {
+        "id" : 1,
+        "title" : "Complete Assignment",
+        "description": "Its an important assignment, make sure to add code documentation",
+        "due_date" : "21st October 2022",
+        "due_time" : "12:00 AM",
+        "status" : "In Progress"
+
+    },
+    {
+        "id" : 2,
+        "title" : "Send flowers to Mom",
+        "description": "Make sure to add baby breaths and orchids",
+        "due_date" : "25th October 2022",
+        "due_time" : "5:00 PM",
+        "status" : "In Progress"  
+    },
+    {
+        "id" : 3,
+        "title" : "Pay credit - card bills",
+        "description": "Pay off all the dues and check the expenses",
+        "due_date" : "1st November 2022",
+        "due_time" : "11:00 AM",
+        "status" : "In Progress"  
+    },
+    {
+        "id" : 4,
+        "title" : "Buy new coffee mug ",
+        "description": "Get a big base mug in a dark shade",
+        "due_date" : "4th November 2022",
+        "due_time" : "11:00 PM",
+        "status" : "In Progress"  
+    }
+]

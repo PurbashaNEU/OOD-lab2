@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!----Title of the page -->
+  <title>To-Do App</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/main.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
+  <!----Styling background image on landing page--->
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+
+  <body>
+   
+    <h2>
+      
+      TO DO APP
+      <button class="todoItem-btn" id ="todoItemBtn" onClick = "addForm()" >Add New To Do Item</button>
+    </h2>
+    <div class="main-container">
+      <div class="todo-list">
+        <ul id="list" class="List_items"></ul>
+      </div>
+      <div class="form-container">
+        <div class="details-container" id="detailsContainer">
+          <div class="details-div">
+            <span class="form-label"> Title: </span>
+            <span id="detailTitle"> </span>
+          </div>
+          <div class="details-div">
+            <span class="form-label"> Description: </span>
+            <span id="detailDescription"> </span>
+          </div>
+          <div class="details-div">
+            <span class="form-label"> Due Date: </span>
+            <span id="detailDate"> </span>
+          </div>
+          <div class="details-div">
+            <span class="form-label"> Due Time: </span>
+            <span id="detailTime"> </span>
+          </div>
+          <div class="details-div">
+            <span class="form-label"> Status: </span>
+            <span id="detailStatus"> </span>
+          </div>
+          <div class="close_button">
+            <button type="button" class="close" id="Close-button">Close</button>
+          </div>
+        </div>
+        <div class="form-class" id="formContainer">
+            <form id="addForm">
+                <div class="form-div">
+                    <label for="title" class="form-label">
+                        Title
+                    </label>
+                    <input type="text" placeholder="Title" class="form-input" name="title" id="title" class="form-control-input" required />
+                </div>
+                <div class="form-div">
+                    <label for="description" class="form-label">
+                        Description
+                    </label>
+                    <textarea id="description" class="form-input" placeholder="Description" name="description" rows="3" cols="30" required></textarea>
+                </div>
+                <div class="form-div">
+                    <label for="dueDate" class="form-label">
+                        Due Date
+                    </label>
+                    <input type="date" class="form-control" name="dueDate" id="dueDate" class="form-input" required />
+                </div>
+                <div class="form-div">
+                    <label for="checkIn"  class="form-label">
+                        Due Time
+                    </label>
+                    <input type="time" class="form-control" name="time" id="dueTime" class="form-input" required />
+                </div>
+                <div class="btn-div">
+                    <input type="submit" class="btn btn-success" value="Submit">
+                    <input type="button" class="btn btn-danger" onClick="cancelForm()" id="cancelBtn" value="Cancel">
+                </div>
+            </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button> -->
+
+
+    <script src="index.js">
+
+
+    </script>
+  </body>
