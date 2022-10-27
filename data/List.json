@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "title" : "Complete Assignment",
-        "description": "Its an important assignment, make sure to add code documentation",
+        "description": "Remember to add code documentation",
         "due_date" : "21st October 2022",
         "due_time" : "12:00 AM",
         "status" : "In Progress"

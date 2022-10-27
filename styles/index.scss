@@ -24,6 +24,9 @@ h2 {
     border-radius: 16px;
     float: right;
   }
+  .todoItem-btn:hover{
+    background-color: orange;
+  }
 
 }
 
@@ -41,17 +44,17 @@ h2 {
       li {
         @extend .display-flex;
         align-items: center;
-        height: 35px;
+        height: 30px;
         padding: 10px;
         margin-bottom: 0.3rem;
-        border: 1px solid rgba(48, 48, 207, 0.877);
+        border: 3px solid rgba(48, 48, 207, 0.877);
       }
     }
   }
 
   .form-container {
     width: 50%;
-    padding: 36px;
+    padding: 38px;
 
     .details-container {
       display: none;
@@ -59,7 +62,7 @@ h2 {
       .details-div {
         display: flex;
         padding: 10px;
-        border: 1px solid rgb(171, 171, 63);
+        border: 2px solid rgb(171, 171, 63);
         margin-bottom: 0.4rem;
 
          .form-label {
@@ -117,6 +120,11 @@ h2 {
   border: none;
   height: 2rem;
   width: 4rem;
+  cursor: pointer;
+  
+}
+.btn-success:hover{
+  background-color: rgb(62, 138, 196);
 }
 
 .btn-danger {
@@ -128,6 +136,9 @@ h2 {
   height: 2rem;
   width: 4rem;
 
+}
+.btn-danger:hover{
+  background-color: rgb(104, 102, 102);
 }
 
 
