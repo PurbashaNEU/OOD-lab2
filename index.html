@@ -8,8 +8,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="dist/main.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
-  <!----Styling background image on landing page--->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"> -->
+  <script src="https://kit.fontawesome.com/6e8183f34d.js" crossorigin="anonymous"></script>
+  
   <style>
 
   </style>
@@ -21,10 +22,12 @@
   <body>
    
     <h2>
-      
-      TO DO APP
+     <i class="fa-solid fa-list-check"></i> 
+     TO DO APP 
+      <!---Add new item button---->
       <button class="todoItem-btn" id ="todoItemBtn" onClick = "addForm()" >Add New To Do Item</button>
     </h2>
+    <!-----Detailed description of the tasks---->
     <div class="main-container">
       <div class="todo-list">
         <ul id="list" class="List_items"></ul>
@@ -55,6 +58,8 @@
             <button type="button" class="close" id="Close-button">Close</button>
           </div>
         </div>
+
+        <!---Add new item form---->
         <div class="form-class" id="formContainer">
             <form id="addForm">
                 <div class="form-div">
@@ -94,7 +99,7 @@
     <!-- <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button> -->
 
 
-    <script src="index.js">
+    <script src="scripts/index.js">
 
 
     </script>

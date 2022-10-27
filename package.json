@@ -1,5 +1,5 @@
 {
-  "name": "assignment-6-purbashaneu",
+  "name": "assignment-6-sharma-shreya3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neu-mis-info6150-fall-2022/assignment-6-PurbashaNEU.git"
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/assignment-6-sharma-shreya3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-PurbashaNEU/issues"
+    "url": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-sharma-shreya3/issues"
   },
-  "homepage": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-PurbashaNEU#readme",
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-sharma-shreya3#readme",
   "dependencies": {
     "sass": "^1.55.0"
   }

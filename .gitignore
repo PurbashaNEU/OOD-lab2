@@ -1,10 +1,7 @@
+
 #Files to be ignored 
 node_modules
 dist
+/.vscode/*
+.log
 package-lock.json
-
-.vscode/*
-.history/*
-
-npm-debug.log
-.git
